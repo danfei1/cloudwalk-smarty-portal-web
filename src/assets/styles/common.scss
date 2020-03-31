@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+input,
+input:focus {
+  border: none;
+  outline: none;
+}
+
+body {
+  min-width: 320px;
+  -webkit-overflow-scrolling: touch;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  background: $popBg;
+  font-size: 24px;
+  overflow-x: hidden;
+  font-family: -apple-system, Helvetica, '微软雅黑', sans-serif;
+  line-height: 1.5;
+  color: #666;
+  -webkit-text-size-adjust: 100% !important;
+  // -webkit-user-select: none;
+  // user-select: none;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: inherit;
+}
+
+// 通用
+.ct-box {
+ // background: url('~assets/images/bg-3.jpg') center no-repeat;
+  background-size: 100% 100%;
+  background-color: $popBg;
+  padding: 90px 90px 0 130px;
+  box-sizing: border-box;
+  .ct-header {
+    display: flex;
+    align-items: center;
+    .title {
+      width: 308px;
+      height: 60px;
+      background: linear-gradient(right, #04244c 23%, #2c63c3 100%);
+      font-size: 25px;
+      font-weight: 200;
+      color: rgba(255, 255, 255, 1);
+      line-height: 60px;
+      padding-left: 36px;
+      &.prefix {
+        position: relative;
+        &:before {
+          content: '';
+          position: absolute;
+          display: block;
+          top: 18px;
+          left: 23px;
+          width: 4px;
+          height: 24px;
+          background: rgba(20, 211, 255, 1);
+        }
+      }
+    }
+  }
+  .query-form {
+    margin-top: 20px;
+  }
+}
+
+.cert-form {
+  color: #17d687;
+  height: 100%;
+  overflow-y: auto;
+  border: 2px solid #16356c;
+  &::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: #17d687;
+  }
+  .el-form-item {
+    width: 100%;
+    margin-bottom: 0;
+    padding: 0 10px;
+    box-sizing: border-box;
+    border-bottom: 2px solid #16356c;
+  }
+  .el-form-item__content {
+    line-height: inherit;
+    padding: 10px 0 0 5px;
+    word-wrap: break-word;
+    box-sizing: border-box;
+  }
+  .el-form-item__label {
+    color: #ffffff;
+    padding: 0;
+  }
+}
+.popover-carousel {
+  .el-carousel__arrow {
+    width: 60px;
+    height: 60px;
+    background: rgb(20, 41, 73);
+    i {
+      font-size: 32px;
+    }
+  }
+}
+
+/* 设置滚动条的样式 */
+::-webkit-scrollbar {
+  width: 14px;
+  height: 14px;
+  background: $linear-top-bg;
+}
+
+/* 滚动槽 */
+::-webkit-scrollbar-track {
+  /*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);*/
+  // border-radius: 10px;
+  // width: 10px;
+}
+/* 滚动条滑块 */
+::-webkit-scrollbar-thumb {
+  border-radius: 3px;
+  border: 1px solid rgba(20, 211, 255, 1);
+  filter: blur(2px);
+}
+::-webkit-scrollbar-thumb:window-inactive {
+  background: #11326c;
+}
+
+// input 日期 清空图标
+.el-input__suffix i{
+   font-size: 25px!important;
+}
+  .el-date-editor .el-range__close-icon {
+  font-size: 25px!important;
+ }
+ //  table 行高亮显示
+  .el-table__body tr.current-row>td {
+     background-color: #01549C!important;
+  }

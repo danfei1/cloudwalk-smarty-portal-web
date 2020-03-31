@@ -1,0 +1,31 @@
+// $vw_fontsize: 75; // iPhone 6尺寸的根元素大小基准值
+// $vw_design: 750;
+// $maxwidthValue: 1024;
+// $maxwidth: 1024px;
+
+// @function rem($px) {
+//   @return ($px / $vw_fontsize / 2) * 1rem;
+// }
+
+// $cborder: #f7f7f7;
+
+$primary: #041836;
+$popBg: rgba(4, 24, 54, 1);
+$linear-right-bg:linear-gradient(right, #04244c 23%, #2c63c3 100%);
+$linear-top-bg:linear-gradient(top, #04244c 23%, #04244c 100%);
+
+// element reset
+$element-primary-button-bg: linear-gradient(
+  180deg,
+  rgba(65, 139, 222, 1) 0%,
+  rgba(32, 89, 158, 1) 16%,
+  rgba(27, 74, 153, 1) 85%,
+  rgba(74, 117, 190, 1) 100%
+);
+$element-button-border: 1px solid rgba(20, 211, 255, 1);
+$element-td-border-color:#254276;
+
+$flow-node-size:25px;
+$flow-parent-size:32px;
+$flow-node-width:800px;
+$flow-node-time-size:25px;

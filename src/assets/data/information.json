@@ -1,0 +1,17 @@
+  {
+        "data":[
+            {
+                "plantnumber":"粤AF9250",
+                "time":"2019-10-30",
+                "camera":"广州南沙海关0"
+            },{
+                "plantnumber":"粤AF9251",
+                "time":"2019-10-30",
+                "camera":"广州南沙海关1"
+            },{
+                "plantnumber":"粤AF9252",
+                "time":"2019-10-30",
+                "camera":"广州南沙海关2"
+            }        
+    ]
+}
